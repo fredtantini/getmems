@@ -1,0 +1,19 @@
+Downloads mems from http://memrise.com/, prints in org-mode format.
+
+Usage: python getMems.py USERNAME > file.org
+
+This uses the *eval* function. Use with caution!!! 
+
+Format:
+* id_lesson
+** thing to remember
+*** hopefully, the definition
+*** more info
+*** mem
+** thing to remember
+*** hopefully, the definition
+*** more info
+*** mem
+...
+* id_lesson
+...
